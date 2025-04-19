@@ -1,0 +1,31 @@
+{
+  "name": "dti_project",
+  "version": "1.0.0",
+  "main": "backend/index.js",
+  "scripts": {
+    "dev": "nodemon backend/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.3",
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.7",
+    "dti_project": "file:",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mailtrap": "^4.0.0",
+    "mongoose": "^8.13.2",
+    "nodemailer": "^6.10.0",
+    "tailwindcss": "^4.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
